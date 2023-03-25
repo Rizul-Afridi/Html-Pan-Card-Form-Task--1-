@@ -1,0 +1,115 @@
+*{
+    margin:0;
+    padding:0;
+    /* overflow: hidden; */
+}
+
+body{
+    background-color: rgb(255, 254, 224);
+    margin:10px;
+}
+
+.heading{
+    background-color:rgb(128, 0, 0);
+    color:white; 
+    padding:5px;  
+    margin:10px 0 10px 0;
+    text-align:center;
+}
+
+.notes{
+    font-style: italic;
+}
+
+.link{
+    color:rgb(25, 25, 255);
+    text-decoration: underline;
+    font-style: italic;
+    cursor: pointer;
+}
+
+body table{
+    width:100%; 
+}
+
+table,tr,td{
+    border:1px solid black;
+    border-collapse: collapse;
+}
+
+table tr td:nth-child(3){
+    width:10%;
+}
+
+table tr td:nth-child(1){
+    width:5%;
+}
+
+.imp{
+    color:red;
+}
+
+.names{
+    display: flex;
+    border:none;
+}
+.names div{
+    margin-left:30px;
+}
+
+.names div:nth-child(1){
+    margin-left:1px;
+}
+
+.highlights{
+    color:rgb(56, 145, 41);
+}
+
+.inputs{
+    width:80%;
+}
+
+.office-name{
+    font-style: italic;
+}
+
+.centered-input{
+    text-align:center;
+}
+
+.message{
+    color:blue;
+    font-style: italic;
+}
+
+.fees{
+    font-style:italic;
+    margin-left:20px;
+}
+
+.last-link{
+    color:red;
+}
+
+.files{
+    margin-left:30%;
+}
+
+.old-photo{
+    margin-left:23%;
+    width:300px;
+}
+
+.old-sign{
+    margin-left:19.5%;
+}
+
+.old-docs{
+    width:30%;
+    height:50px;
+    margin-left: 21.3%;
+}
+
+button{
+    margin-left:45%;
+}
